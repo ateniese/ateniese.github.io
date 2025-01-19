@@ -1,141 +1,185 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px Georgia; color: #B22222; -webkit-text-stroke: #4b0012}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Georgia; color: #000000; min-height: 21.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Georgia; color: #000000}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Georgia; color: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Georgia; color: #000000; min-height: 16.0px}
-    p.p6 {margin: 0.0px 0.0px 13.2px 0.0px; font: 14.0px Georgia; color: #000000}
-    p.p7 {margin: 0.0px 0.0px 13.2px 0.0px; font: 14.0px Georgia; color: #0000e9}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #000000}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.5px Georgia; color: #000000; -webkit-text-stroke: #000000}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.5px Georgia; color: #000000; -webkit-text-stroke: #000000; min-height: 21.0px}
-    p.p11 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #000000; -webkit-text-stroke: #000000}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #000000; -webkit-text-stroke: #000000}
-    p.p13 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #0000e9; -webkit-text-stroke: #4b0012}
-    p.p14 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #000000; -webkit-text-stroke: #4b0012}
-    p.p15 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #4b0012; -webkit-text-stroke: #4b0012}
-    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #4b0012; -webkit-text-stroke: #4b0012}
-    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #000000; -webkit-text-stroke: #4b0012}
-    p.p18 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #4b0012; -webkit-text-stroke: #4b0012; min-height: 15.0px}
-    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #4b0012; -webkit-text-stroke: #4b0012; min-height: 15.0px}
-    span.s1 {font-kerning: none}
-    span.s2 {text-decoration: underline ; font-kerning: none}
-    span.s3 {font: 14.0px Georgia; text-decoration: underline ; font-kerning: none; color: #4b0012; -webkit-text-stroke: 0px #000000}
-    span.s4 {font: 13.2px Georgia; text-decoration: underline ; font-kerning: none}
-    span.s5 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s6 {text-decoration: underline ; font-kerning: none; color: #0000e9}
-    span.s7 {font-kerning: none; -webkit-text-stroke: 0px #000000}
-    span.s8 {text-decoration: underline ; font-kerning: none; color: #4b0012; -webkit-text-stroke: 0px #4b0012}
-    span.s9 {font: 13.2px Georgia; text-decoration: underline ; font-kerning: none; color: #4b0012}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giuseppe Ateniese</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            max-width: 750px;
+            margin: 20px auto;
+            line-height: 1.6;
+            color: #000;
+            padding: 0 20px;
+        }
+        h1, h2, h3 {
+            font-weight: bold;
+            color: #4b0012;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        h2 {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        a:hover {
+            color: #003d80;
+            text-decoration: underline;
+        }
+        p, ul {
+            margin: 10px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin: 8px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+        .info {
+            font-size: 14px;
+            color: #555;
+        }
+        .source {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .bio-links {
+            margin: 15px 0;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 10px auto;
+            }
+            ul {
+                padding-left: 15px;
+            }
+            .source {
+                display: block;
+                margin-top: 4px;
+            }
+        }
+    </style>
 </head>
 <body>
-<p class="p1"><span class="s1"><b>Giuseppe Ateniese</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<img src="GA.JPG" alt="Giuseppe Ateniese"><br> 
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p3"><span class="s1"><b>Eminent Scholar/Professor</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p4"><span class="s1"><b>Department of Computer Science</b></span></p>
-<p class="p4"><span class="s1"><b>Department of Cyber Security Engineering</b></span></p>
-<p class="p4"><span class="s1"><b>George Mason University</b></span></p><br>
-<p class="p4"><span class="s1"><b>Office: Research Hall 339</b></span></p>
-<p class="p4"><span class="s1"><b>Phone: +1 (703) 993-6758</b></span></p>
-<p class="p4"><span class="s1"><b>Email: ateniese@gmu.edu</b></span></p>
-<p class="p5"><span class="s1"><b></b></span><br></p>
-<p class="p5"><span class="s1"><b></b></span><br></p>
-<p class="p3"><span class="s1"><b>Short Bio</b></span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p6"><span class="s1">Giuseppe Ateniese is a Professor, Eminent Scholar in Cybersecurity and CCI Faculty Fellow in the Department of Computer Science and the Department of Cyber Security Engineering at George Mason University. He was Farber Endowed Chair in Computer Science and Department Chair at Stevens Institute of Technology. In addition, he was with Sapienza-University of Rome (Italy), Assistant/Associate Professor at Johns Hopkins University (USA), and one of the JHU Information Security Institute founders. He was a researcher at IBM Zurich Research lab (Switzerland) and scientist at the Information Sciences Institute of the University of Southern California (USA). He also briefly worked as visiting professor at Microsoft in Redmond (USA). He received the NSF CAREER Award for his research in privacy and security, and the Google Faculty Research Award, the IBM Faculty Award, and the IEEE CISTC Technical Recognition Award for his research on cloud security. He has contributed to areas such as proxy re-cryptography, anonymous communication, two-party computation, secure storage, and provable data possession. He is currently working on privacy-preserving machine learning and decentralized secure computing based on the blockchain technology.</span></p>
-</span></p>
-<p class="p7"><span class="s2"><a href="https://github.com/dynaroars/dynaroars.github.io/wiki/About-GMU">GMU Computer Science Stats!</a></span></p>
-</span></p>
-<p class="p7"><span class="s2"><a href="https://cec.gmu.edu/news/2021-09/mason-welcomes-new-eminent-scholar-cybersecurity">Mason welcomes new Eminent Scholar in Cybersecurity</a></span></p>
-<p class="p7"><span class="s2"><a href="https://www.stevens.edu/news/stevens-ai-cybersecurity-expert-ranked-among-top-scholars-world">AMiner's A-10 "Most Influential Security and Privacy Scholars"</a></span></p>
-<p class="p7"><span class="s2"><a href="https://www.stevens.edu/news/new-faculty-chair-lead-stevens-computer-science-department">Stevens Department Chair</a></span></p>
-<p class="p7"><span class="s2"><a href="https://www.stevens.edu/news/ceremony-welcomes-giuseppe-ateniese-farber-chair-computer-science">Farber Endowed Chair, Investiture ceremony</a></span></p>
-<p class="p8"><span class="s1"><br>
-</span></p>
-<p class="p9"><span class="s1"><b>Education</b></span></p>
-<p class="p10"><span class="s1"></span><br></p>
-<p class="p11"><span class="s1">PhD in Computer Science, University of Genoa (Italy), 2000</span></p>
-<p class="p11"><span class="s1"><i>Laurea </i>(M.Sc.) in Computer Science, University of Salerno (Italy), 1995</span></p>
-<p class="p11"><span class="s1">Master of Engineering (Honoris Causa), Stevens Institute of Technology (USA), 2020</span></p>
-<p class="p11"><span class="s1">I'm blessed to have had Gene Tsudik as my PhD advisor and Alfredo De Santis as my M.Sc. advisor.</span></p>
-<p class="p12"><span class="s1"><br>
-</span></p>
-<p class="p9"><span class="s1"><b>Teaching</b></span></p>
-<p class="p10"><span class="s1"></span><br></p>
-<p class="p13"><span class="s2"><a href="https://ateniese.github.io/Blockchains_and_Cryptofinance">CS499: Blockchains and Cryptofinance<span class="s4"></span></a></span></p>
-<p class="p13"><span class="s2"><a href="https://ateniese.github.io/Cryptography_Fundamentals">CYSE/ECE 476: Cryptography Fundamentals<span class="s4"></span></a></span></p>
-<p class="p13"><span class="s2"><a href="https://ateniese.github.io/Blockchains_and_Cryptofinance2">CS695: Blockchains and Cryptofinance (Graduate)<span class="s4"></span></a></span></p>
-<p class="p13"><span class="s2"><a href="https://ateniese.github.io/Introduction_to_cryptography">CS487/587: Introduction to Cryptography<span class="s4"></span></a></span></p>
-<p class="p9"><span class="s1"><b>Research</b></span></p>
-<p class="p10"><span class="s1"></span><br></p>
-<p class="p11"><span class="s1">Cloud Security, Cybersecurity, and Applied Cryptography.</span></p>
-<p class="p11"><span class="s1"><b>Papers:</b></span></p>
-<p class="p13"><span class="s2"><a href="https://scholar.google.com/citations?hl=en&amp;user=EyZJ08MAAAAJ">Google Scholar<span class="s4"></span></a></span></p>
-<p class="p13"><span class="s2"><a href="http://dblp.uni-trier.de/pers/hd/a/Ateniese:Giuseppe">DBLP<span class="s4"></span></a></span></p>
-<p class="p11"><span class="s1"> </span></p>
-<p class="p11"><span class="s1"><b>Some recent news about my research:</b></span></p>
-<p class="p11"><span class="s1"> </span></p>
-<p class="p11"><span class="s1"><b>---BLOCKCHAIN</b></span></p>
-<p class="p13"><span class="s2"><a href="https://www.stevens.edu/news/blockchain-just-got-much-more-powerful">Blockchain Just Got Much More Powerful</a></span><span class="s5"> (Stevens)</span></p>
-<p class="p13"><span class="s2"><a href="http://www.forbes.com/sites/tomgroenfeldt/2016/10/06/accenture-launches-a-way-to-edit-blockchains/">Accenture Launches A Way To Edit Blockchains</a></span><span class="s5"> (Forbes)</span></p>
-<p class="p13"><span class="s2"><a href="http://www.bankingexchange.com/technology-channel/item/6492-a-blockchain-you-can-edit">A blockchain you can edit?</a></span><span class="s5"> (Banking Exchange)</span></p>
-<p class="p13"><span class="s2"><a href="https://www.ft.com/content/f5cd6754-7e83-11e6-8e50-8ec15fb462f4">Accenture to unveil blockchain editing technique</a></span><span class="s5"> (Finantial Times)</span></p>
-<p class="p13"><span class="s2"><a href="http://www.reuters.com/article/us-tech-blockchain-accenture-idUSKCN11Q1S2">Accenture breaks blockchain taboo with editing system</a></span><span class="s5"> (Reuters)</span></p>
-<p class="p13"><span class="s2"><a href="http://finance.yahoo.com/video/inside-latest-blockchain-battle-182952023.html">Inside the latest blockchain battle</a></span><span class="s5"> (VIDEO)</span></p>
-<p class="p14"><span class="s6"><a href="http://www.it-finanzmagazin.de/editierbare-blockchain-fuer-banken-versicherer-accenture-stellt-prototyp-auf-permissioned-basis-vor-37100/">German</a></span><span class="s7">, <a href="http://www.lemonde.fr/economie/article/2016/09/26/apres-un-cyber-casse-la-technologie-blockchain-se-cherche-un-avenir_5003434_3234.html"><span class="s8">French</span></a> (Le Monde), <a href="http://www.techweekeurope.it/software/accenture-propone-il-blockchain-modificabile-98553"><span class="s8">Italian</span></a></span></p>
-<p class="p13"><span class="s2"><a href="http://www.nytimes.com/2016/09/10/business/dealbook/downside-of-virtual-currencies-a-ledger-that-cant-be-corrected.html">Downside of Bitcoin: A Ledger That Can’t Be Corrected</a></span><span class="s5"> (NYT)</span></p>
-<p class="p13"><span class="s2"><a href="https://www.technologyreview.com/s/602434/is-an-editable-blockchain-the-future-of-finance/">Is an Editable Blockchain the Future of Finance?</a></span><span class="s5"> (MIT Tech Review)</span></p>
-<p class="p13"><span class="s2"><a href="http://www.techrepublic.com/article/accenture-announces-creation-of-an-editable-blockchain-but-bitcoin-users-need-not-worry/">Accenture announces creation of an editable blockchain, but Bitcoin users need not worry</a></span><span class="s5"> (TechRepublic)</span></p>
-<p class="p13"><span class="s2"><a href="https://newsroom.accenture.com/news/accenture-debuts-prototype-of-editable-blockchain-for-enterprise-and-permissioned-systems.htm">Accenture Debuts Prototype of ‘Editable’ Blockchain for Enterprise and Permissioned Systems</a></span><span class="s5"> (Accenture)</span></p>
-<p class="p15"><span class="s5">New blockchain services expected to entice CIOs to test waters (<a href="https://searchcio.techtarget.com/feature/New-blockchain-services-expected-to-entice-CIOs-to-test-waters"><span class="s8">https://searchcio.techtarget.com/feature/New-blockchain-services-expected-to-entice-CIOs-to-test-waters</span></a>)</span></p>
-<p class="p11"><span class="s1"> </span></p>
-<p class="p11"><span class="s1"><b>---AI AND SECURITY</b></span></p>
-<p class="p15"><span class="s5"><b>The Wall Street Journal:  </b>AI Could Make Cyberattacks More Dangerous, Harder to Detect (<a href="https://www.wsj.com/articles/ai-could-make-cyberattacks-more-dangerous-harder-to-detect-1542128667?mod=article_inline"><span class="s8">https://www.wsj.com/articles/ai-could-make-cyberattacks-more-dangerous-harder-to-detect-1542128667?mod=article_inline</span></a>)</span></p>
-<p class="p15"><span class="s5"><b>ACM:  </b>Machine Learning vs. Machine Learning (<a href="https://cacm.acm.org/news/240891-machine-learning-vs-machine-learning/fulltext"><span class="s8">https://cacm.acm.org/news/240891-machine-learning-vs-machine-learning/fulltext</span></a>)</span></p>
-<p class="p16"><span class="s5"><b>Stevens: </b>Why You Should Worry About This New AI-Powered Cyberattack (<a href="https://www.stevens.edu/news/why-you-should-worry-about-new-ai-powered-cyberattack"><span class="s8">https://www.stevens.edu/news/why-you-should-worry-about-new-ai-powered-cyberattack</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p16"><span class="s5"><b>ScienceMag</b>: Artificial intelligence just made guessing your password a whole lot easier (<a href="http://www.sciencemag.org/news/2017/09/artificial-intelligence-just-made-guessing-your-password-whole-lot-easier"><span class="s8">http://www.sciencemag.org/news/2017/09/artificial-intelligence-just-made-guessing-your-password-whole-lot-easier</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p16"><span class="s5"><b>Stevens</b>: Powerful Password Crackers May Be Closer Than You Think, Say Stevens Institute of Technology Researchers (<a href="https://www.stevens.edu/news/powerful-password-crackers-may-be-closer-you-think-say-stevens-institute-technology-researchers"><span class="s8">https://www.stevens.edu/news/powerful-password-crackers-may-be-closer-you-think-say-stevens-institute-technology-researchers</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p12"><span class="s1"><b>The Register</b>: AI slurps, learns millions of passwords to work out which ones you may use next (<a href="https://www.theregister.co.uk/2017/09/20/researchers_train_ai_bots_to_crack_passwords/"><span class="s9">https://www.theregister.co.uk/2017/09/20/researchers_train_ai_bots_to_crack_passwords/</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p16"><span class="s5"><b>MIT Technology Review</b>: A Pair of AIs Have Become Very Good at Guessing Your Passwords (<a href="https://www.technologyreview.com/the-download/608897/a-pair-of-ais-have-become-very-good-at-guessing-your-passwords/"><span class="s8">https://www.technologyreview.com/the-download/608897/a-pair-of-ais-have-become-very-good-at-guessing-your-passwords/</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p16"><span class="s5"><b>Threatpost</b>: DEEP-LEARNING PASSGAN TOOL IMPROVES PASSWORD GUESSING (<a href="https://threatpost.com/deep-learning-passgan-tool-improves-password-guessing/128039/"><span class="s8">https://threatpost.com/deep-learning-passgan-tool-improves-password-guessing/128039/</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p12"><span class="s1"><b>SecurityIntelligence</b> - IBM: Generative Adversarial Networks and Cybersecurity: Part 2 PassGAN: Cracking Passwords With Generative Adversarial Networks (<a href="https://securityintelligence.com/generative-adversarial-networks-and-cybersecurity-part-2/"><span class="s9">https://securityintelligence.com/generative-adversarial-networks-and-cybersecurity-part-2/</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p16"><span class="s5"><b>DarkReading</b>: PassGAN: Password Cracking Using Machine Learning (<a href="https://www.darkreading.com/analytics/passgan-password-cracking-using-machine-learning/d/d-id/1329964?_mc=rss_x_drr_edt_aud_dr_x_x-rss-simple"><span class="s8">https://www.darkreading.com/analytics/passgan-password-cracking-using-machine-learning/d/d-id/1329964?_mc=rss_x_drr_edt_aud_dr_x_x-rss-simple</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p12"><span class="s1"><b>Inverse</b>: Researchers Show How A.I. Is the End of Passwords as We Know Them (<a href="https://www.inverse.com/article/36604-ai-cracking-passwords"><span class="s9">https://www.inverse.com/article/36604-ai-cracking-passwords</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p16"><span class="s5"><b>Sensormag</b>: Artificial Intelligence, Slayer Of Passwords (<a href="https://www.sensorsmag.com/embedded/artificial-intelligence-slayer-passwords"><span class="s8">https://www.sensorsmag.com/embedded/artificial-intelligence-slayer-passwords</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p16"><span class="s5"><b>TechTarget</b>: How machine learning-powered password guessing impacts security (<a href="https://searchsecurity.techtarget.com/tip/How-machine-learning-powered-password-guessing-impacts-security"><span class="s8">https://searchsecurity.techtarget.com/tip/How-machine-learning-powered-password-guessing-impacts-security</span></a>)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p17"><span class="s6"><a href="https://blog.lastpass.com/2017/10/artificial-intelligence-means-business-password-strategy.html/">Lastpass</a></span><span class="s7"> and <a href="https://blog.dashlane.com/artificial-intelligence-can-help-hackers-breach-business-passwords/"><span class="s8">Dashlane</span></a> (blogs)</span></p>
-<p class="p12"><span class="s1"> </span></p>
-<p class="p16"><span class="s5"><i>Selected as the "Coolest Hack of 2017" by DarkReading: </i><a href="https://www.darkreading.com/threat-intelligence/the-coolest-hacks-of-2017/d/d-id/1330699"><span class="s8">https://www.darkreading.com/threat-intelligence/the-coolest-hacks-of-2017/d/d-id/1330699</span></a></span></p>
-<p class="p11"><span class="s1"> </span></p>
-<p class="p11"><span class="s1"><b>---CLOUD SECURITY</b></span></p>
-<p class="p15"><span class="s5">Top 10 Ways to Secure Big Data (<a href="https://www.meritalk.com/articles/top-10-ways-to-secure-big-data/"><span class="s8">https://www.meritalk.com/articles/top-10-ways-to-secure-big-data/</span></a>)</span></p>
-<p class="p15"><span class="s5">The Cloud and Mobile Revolution: What’s Next? (<a href="https://www.foxbusiness.com/features/the-cloud-and-mobile-revolution-whats-next"><span class="s8">https://www.foxbusiness.com/features/the-cloud-and-mobile-revolution-whats-next</span></a>)</span></p>
-<p class="p18"><span class="s1"></span><br></p>
-</span></p>
-<p class="p11"><span class="s1"> </span></p>
-<p class="p13"><span class="s2"><a href="http://cl.ly/1L162k3q1B2n/5CC1EE4B.asc">My GPG/PGP Public Key<span class="s4"></span></a></span></p>
+    <h1>Giuseppe Ateniese</h1>
+    <img src="GA.JPG" alt="Giuseppe Ateniese">
+
+    <h2>Position</h2>
+    <p>Eminent Scholar/Professor</p>
+    <p>Department of Computer Science<br>
+       Department of Cyber Security Engineering<br>
+       George Mason University</p>
+    <p class="info">Office: Research Hall 339<br>
+       Phone: +1 (703) 993-6758<br>
+       Email: <a href="mailto:ateniese@gmu.edu">ateniese@gmu.edu</a></p>
+
+    <h2>Short Bio</h2>
+   
+    <p>Giuseppe Ateniese is a Professor, Eminent Scholar in Cybersecurity and CCI Faculty Fellow in the Department of Computer Science and the Department of Cyber Security 
+      Engineering at George Mason University. He was Farber Endowed Chair in Computer Science and Department Chair at Stevens Institute of Technology. 
+      In addition, he was with Sapienza-University of Rome (Italy), Assistant/Associate Professor at Johns Hopkins University (USA), and one of the JHU Information 
+      Security Institute founders. He was a researcher at IBM Zurich Research lab (Switzerland) and scientist at the Information Sciences Institute of the University 
+      of Southern California (USA). He also briefly worked as visiting professor at Microsoft in Redmond (USA). He received the NSF CAREER Award for his research in 
+      privacy and security, and the Google Faculty Research Award, the IBM Faculty Award, and the IEEE CISTC Technical Recognition Award for his research on cloud security. 
+      He has contributed to areas such as proxy re-cryptography, anonymous communication, two-party computation, secure storage, and provable data possession. 
+      He is currently working on privacy-preserving machine learning and decentralized secure computing based on the blockchain technology.</p>
+  
+    <div class="bio-links">
+        <ul>
+            <li><a href="https://github.com/dynaroars/dynaroars.github.io/wiki/About-GMU">GMU Computer Science Stats!</a></li>
+            <li><a href="https://cec.gmu.edu/news/2021-09/mason-welcomes-new-eminent-scholar-cybersecurity">Mason welcomes new Eminent Scholar in Cybersecurity</a></li>
+            <li><a href="https://www.stevens.edu/news/stevens-ai-cybersecurity-expert-ranked-among-top-scholars-world">AMiner's A-10 "Most Influential Security and Privacy Scholars"</a></li>
+            <li><a href="https://www.stevens.edu/news/new-faculty-chair-lead-stevens-computer-science-department">Stevens Department Chair</a></li>
+            <li><a href="https://www.stevens.edu/news/ceremony-welcomes-giuseppe-ateniese-farber-chair-computer-science">Farber Endowed Chair, Investiture ceremony</a></li>
+        </ul>
+    </div>
+  
+    <h2>Education</h2>
+    <ul>
+        <li>PhD in Computer Science, University of Genoa (Italy), 2000</li>
+        <li><i>Laurea</i> (M.Sc.) in Computer Science, University of Salerno (Italy), 1995</li>
+        <li>Master of Engineering (Honoris Causa), Stevens Institute of Technology (USA), 2020</li>
+    </ul>
+    <p class="info">Mentors: Gene Tsudik (PhD advisor) and Alfredo De Santis (M.Sc. advisor)</p>
+
+    <h2>Teaching</h2>
+    <ul>
+        <li><a href="https://ateniese.github.io/Blockchains_and_Cryptofinance">CS499: Blockchains and Cryptofinance</a></li>
+        <li><a href="https://ateniese.github.io/Cryptography_Fundamentals">CYSE/ECE 476: Cryptography Fundamentals</a></li>
+        <li><a href="https://ateniese.github.io/Blockchains_and_Cryptofinance2">CS695: Blockchains and Cryptofinance (Graduate)</a></li>
+        <li><a href="https://ateniese.github.io/Introduction_to_cryptography">CS487/587: Introduction to Cryptography</a></li>
+    </ul>
+
+    <h2>Research</h2>
+    <p>Cloud Security, Cybersecurity, and Applied Cryptography</p>
+    <p><strong>Papers:</strong></p>
+    <ul>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=EyZJ08MAAAAJ">Google Scholar</a></li>
+        <li><a href="http://dblp.uni-trier.de/pers/hd/a/Ateniese:Giuseppe">DBLP</a></li>
+    </ul>
+
+    <h2>News</h2>
+    <h3>Blockchain</h3>
+    <ul>
+        <li><a href="https://www.stevens.edu/news/blockchain-just-got-much-more-powerful">Blockchain Just Got Much More Powerful</a> <span class="source">(Stevens)</span></li>
+        <li><a href="http://www.forbes.com/sites/tomgroenfeldt/2016/10/06/accenture-launches-a-way-to-edit-blockchains/">Accenture Launches A Way To Edit Blockchains</a> <span class="source">(Forbes)</span></li>
+        <li><a href="http://www.bankingexchange.com/technology-channel/item/6492-a-blockchain-you-can-edit">A blockchain you can edit?</a> <span class="source">(Banking Exchange)</span></li>
+        <li><a href="https://www.ft.com/content/f5cd6754-7e83-11e6-8e50-8ec15fb462f4">Accenture to unveil blockchain editing technique</a> <span class="source">(Financial Times)</span></li>
+        <li><a href="http://www.reuters.com/article/us-tech-blockchain-accenture-idUSKCN11Q1S2">Accenture breaks blockchain taboo with editing system</a> <span class="source">(Reuters)</span></li>
+        <li><a href="http://finance.yahoo.com/video/inside-latest-blockchain-battle-182952023.html">Inside the latest blockchain battle</a> <span class="source">(Video)</span></li>
+        <li>Available in: <a href="http://www.it-finanzmagazin.de/editierbare-blockchain-fuer-banken-versicherer-accenture-stellt-prototyp-auf-permissioned-basis-vor-37100/">German</a>, <a href="http://www.lemonde.fr/economie/article/2016/09/26/apres-un-cyber-casse-la-technologie-blockchain-se-cherche-un-avenir_5003434_3234.html">French</a> <span class="source">(Le Monde)</span>, <a href="http://www.techweekeurope.it/software/accenture-propone-il-blockchain-modificabile-98553">Italian</a></li>
+        <li><a href="http://www.nytimes.com/2016/09/10/business/dealbook/downside-of-virtual-currencies-a-ledger-that-cant-be-corrected.html">Downside of Bitcoin: A Ledger That Can't Be Corrected</a> <span class="source">(NYT)</span></li>
+        <li><a href="https://www.technologyreview.com/s/602434/is-an-editable-blockchain-the-future-of-finance/">Is an Editable Blockchain the Future of Finance?</a> <span class="source">(MIT Tech Review)</span></li>
+        <li><a href="http://www.techrepublic.com/article/accenture-announces-creation-of-an-editable-blockchain-but-bitcoin-users-need-not-worry/">Accenture announces creation of an editable blockchain</a> <span class="source">(TechRepublic)</span></li>
+        <li><a href="https://newsroom.accenture.com/news/accenture-debuts-prototype-of-editable-blockchain-for-enterprise-and-permissioned-systems.htm">Accenture Debuts Prototype of 'Editable' Blockchain</a> <span class="source">(Accenture)</span></li>
+        <li><a href="https://searchcio.techtarget.com/feature/New-blockchain-services-expected-to-entice-CIOs-to-test-waters">New blockchain services expected to entice CIOs</a></li>
+    </ul>
+
+    <h3>AI and Security</h3>
+    <ul>
+        <li><a href="https://www.wsj.com/articles/ai-could-make-cyberattacks-more-dangerous-harder-to-detect-1542128667?mod=article_inline">AI Could Make Cyberattacks More Dangerous, Harder to Detect</a> <span class="source">(Wall Street Journal)</span></li>
+        <li><a href="https://cacm.acm.org/news/240891-machine-learning-vs-machine-learning/fulltext">Machine Learning vs. Machine Learning</a> <span class="source">(ACM)</span></li>
+        <li><a href="https://www.stevens.edu/news/why-you-should-worry-about-new-ai-powered-cyberattack">Why You Should Worry About This New AI-Powered Cyberattack</a> <span class="source">(Stevens)</span></li>
+        <li><a href="http://www.sciencemag.org/news/2017/09/artificial-intelligence-just-made-guessing-your-password-whole-lot-easier">Artificial intelligence just made guessing your password a whole lot easier</a> <span class="source">(ScienceMag)</span></li>
+        <li><a href="https://www.stevens.edu/news/powerful-password-crackers-may-be-closer-you-think-say-stevens-institute-technology-researchers">Powerful Password Crackers May Be Closer Than You Think</a> <span class="source">(Stevens)</span></li>
+        <li><a href="https://www.theregister.co.uk/2017/09/20/researchers_train_ai_bots_to_crack_passwords/">AI slurps, learns millions of passwords to work out which ones you may use next</a> <span class="source">(The Register)</span></li>
+        <li><a href="https://www.technologyreview.com/the-download/608897/a-pair-of-ais-have-become-very-good-at-guessing-your-passwords/">A Pair of AIs Have Become Very Good at Guessing Your Passwords</a> <span class="source">(MIT Technology Review)</span></li>
+        <li><a href="https://threatpost.com/deep-learning-passgan-tool-improves-password-guessing/128039/">Deep-Learning PassGAN Tool Improves Password Guessing</a> <span class="source">(Threatpost)</span></li>
+        <li><a href="https://securityintelligence.com/generative-adversarial-networks-and-cybersecurity-part-2/">PassGAN: Cracking Passwords With Generative Adversarial Networks</a> <span class="source">(SecurityIntelligence - IBM)</span></li>
+        <li><a href="https://www.darkreading.com/analytics/passgan-password-cracking-using-machine-learning/d/d-id/1329964?_mc=rss_x_drr_edt_aud_dr_x_x-rss-simple">PassGAN: Password Cracking Using Machine Learning</a> <span class="source">(DarkReading)</span></li>
+        <li><a href="https://www.inverse.com/article/36604-ai-cracking-passwords">Researchers Show How A.I. Is the End of Passwords as We Know Them</a> <span class="source">(Inverse)</span></li>
+        <li><a href="https://www.sensorsmag.com/embedded/artificial-intelligence-slayer-passwords">Artificial Intelligence, Slayer Of Passwords</a> <span class="source">(Sensormag)</span></li>
+        <li><a href="https://searchsecurity.techtarget.com/tip/How-machine-learning-powered-password-guessing-impacts-security">How machine learning-powered password guessing impacts security</a> <span class="source">(TechTarget)</span></li>
+        <li>Coverage on <a href="https://blog.lastpass.com/2017/10/artificial-intelligence-means-business-password-strategy.html/">LastPass</a> and <a href="https://blog.dashlane.com/artificial-intelligence-can-help-hackers-breach-business-passwords/">Dashlane</a> <span class="source">(blogs)</span></li>
+        <li><a href="https://www.darkreading.com/threat-intelligence/the-coolest-hacks-of-2017/d/d-id/1330699">Selected as the "Coolest Hack of 2017" by DarkReading</a></li>
+    </ul>
+
+    <h3>Cloud Security</h3>
+    <ul>
+        <li><a href="https://www.meritalk.com/articles/top-10-ways-to-secure-big-data/">Top 10 Ways to Secure Big Data</a> <span class="source">(MeriTalk)</span></li>
+        <li><a href="https://www.foxbusiness.com/features/the-cloud-and-mobile-revolution-whats-next">The Cloud and Mobile Revolution: What's Next?</a> <span class="source">(Fox Business)</span></li>
+    </ul>
+
+    <h2>GPG/PGP Key</h2>
+    <p><a href="http://cl.ly/1L162k3q1B2n/5CC1EE4B.asc">Download Public Key</a></p>
 </body>
 </html>
