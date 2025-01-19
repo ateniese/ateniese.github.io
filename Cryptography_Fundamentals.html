@@ -1,83 +1,100 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.3">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px Georgia; color: #B22222; -webkit-text-stroke: #4b0012}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Georgia; color: #000000; min-height: 21.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Georgia; color: #000000}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Georgia; color: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Georgia; color: #000000; min-height: 16.0px}
-    p.p6 {margin: 0.0px 0.0px 13.2px 0.0px; font: 14.0px Georgia; color: #000000}
-    p.p7 {margin: 0.0px 0.0px 13.2px 0.0px; font: 14.0px Georgia; color: #0000e9}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #000000}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.5px Georgia; color: #000000; -webkit-text-stroke: #000000}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.5px Georgia; color: #000000; -webkit-text-stroke: #000000; min-height: 21.0px}
-    p.p11 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #000000; -webkit-text-stroke: #000000}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #000000; -webkit-text-stroke: #000000}
-    p.p13 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #0000e9; -webkit-text-stroke: #4b0012}
-    p.p14 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #000000; -webkit-text-stroke: #4b0012}
-    p.p15 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #4b0012; -webkit-text-stroke: #4b0012}
-    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #4b0012; -webkit-text-stroke: #4b0012}
-    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #000000; -webkit-text-stroke: #4b0012}
-    p.p18 {margin: 0.0px 0.0px 13.2px 0.0px; font: 13.2px Georgia; color: #4b0012; -webkit-text-stroke: #4b0012; min-height: 15.0px}
-    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.2px Georgia; color: #4b0012; -webkit-text-stroke: #4b0012; min-height: 15.0px}
-    span.s1 {font-kerning: none}
-    span.s2 {text-decoration: underline ; font-kerning: none}
-    span.s3 {font: 14.0px Georgia; text-decoration: underline ; font-kerning: none; color: #4b0012; -webkit-text-stroke: 0px #000000}
-    span.s4 {font: 13.2px Georgia; text-decoration: underline ; font-kerning: none}
-    span.s5 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s6 {text-decoration: underline ; font-kerning: none; color: #0000e9}
-    span.s7 {font-kerning: none; -webkit-text-stroke: 0px #000000}
-    span.s8 {text-decoration: underline ; font-kerning: none; color: #4b0012; -webkit-text-stroke: 0px #4b0012}
-    span.s9 {font: 13.2px Georgia; text-decoration: underline ; font-kerning: none; color: #4b0012}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CYSE/ECE 476: Cryptography Fundamentals</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            max-width: 750px;
+            margin: 20px auto;
+            line-height: 1.5;
+            color: #000;
+        }
+        h1 {
+            font-size: 22px;
+            font-weight: bold;
+            color: #4b0012;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 20px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        p, ul {
+            margin: 10px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .info {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-<p class="p1"><span class="s1"><b>CYSE/ECE 476: Cryptography Fundamentals (Fall 2024)</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p9"><span class="s1"><b>Professor:</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p7"><span class="s2"><a href="https://ateniese.github.io">Giuseppe Ateniese (ateniese@gmu.edu)</a></span></p>
-<p class="p6"><span class="s1">Office hours: Tuesday 4:30pm - 5:30pm (Zoom)</span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p9"><span class="s1"><b>Description:</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p6"><span class="s1">Cryptography is the science of secure communication and combines math and art. Cryptography Fundamentals (CYSE/ECE 476) introduces the student to both foundational principles and modern engineering applications of cryptography. It will focus on cryptographic primitives, such as symmetric and asymmetric encryption, hashing, digital signatures, and their critical role in everyday life. In addition, it will cover advanced topics such as end-to-end encryption, hardware cryptography, zero-knowledge proofs, and cryptocurrencies.
-<p class="p6"><span class="s1">This course aims to provide students with practical insights and tools for understanding how cryptography can be used in the real world. They will learn how cryptographers come up with better protocols and respond to new vulnerabilities, which is an important skill for anyone who wants to work with or build secure systems.</span></p>
-<p class="p6"><span class="s1"> We will use Blackboard for Q&As, course materials, and assignments. 
-</span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p9"><span class="s1"><b>Scheduled Meeting Times:</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p6"><span class="s1"> 
-Monday 	4:30pm - 7:10pm, BL 129
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p9"><span class="s1"><b>Reading material:</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p6"><span class="s1">The primary textbook is:</span></p>
-<p class="p7"><span class="s2"><a href="https://www.manning.com/books/real-world-cryptography">Real-World Cryptography by David Wong</a></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p6"><span class="s1">We will also use material from:</span></p>
-<p class="p7"><span class="s2"><a href="https://joyofcryptography.com">The Joy of Cryptography by Mike Rosulek</a></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p6"><span class="s1">Note: The goal of this course is to introduce students to how practitioners in the field use cryptography in practice. If you would like to learn more about theoretical cryptography, I encourage you to take this course instead: "CS 487 / CS 587: Introduction to Cryptography", which focuses on foundations and "provable" security. Excellent books, in this case, include: "Introduction to modern cryptography" by Katz and Lindell and "A Graduate Course in Applied Cryptography" by Boneh and Shoup.</span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p9"><span class="s1"><b>Grading:</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p6"><span class="s1">50% Assignments</span></p>
-<p class="p6"><span class="s1">40% Final</span></p>
-<p class="p6"><span class="s1">10% Participation</span></p>
+    <h1>CYSE/ECE 476: Cryptography Fundamentals (Fall 2024)</h1>
 
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p9"><span class="s1"><b>Ethics and Policies:</b></span></p>
-<p class="p2"><span class="s1"><b></b></span><br></p>
-<p class="p7"><span class="s2"><a href="https://stearnscenter.gmu.edu/home/gmu-common-course-policies/">GMU Common Course Policies</a></span></p>
-<p class="p7"><span class="s2"><a href="https://academicstandards.gmu.edu">GMU Academic Standards</a></span></p>
-<p class="p7"><span class="s2"><a href="https://cs.gmu.edu/resources/honor-code/">CS Department Honor Code</a></span></p>
+    <h2>Instructor</h2>
+    <p>
+        <a href="https://ateniese.github.io">Giuseppe Ateniese</a> (<a href="mailto:ateniese@gmu.edu">ateniese@gmu.edu</a>)
+    </p>
+    <p class="info">Office hours: Tuesday, 4:30–5:30 PM (Zoom)</p>
+
+    <h2>Description</h2>
+    <p>
+        This course explores the foundations and practical applications of cryptography, focusing on symmetric/asymmetric encryption, hashing, 
+        digital signatures, and advanced topics such as end-to-end encryption, hardware cryptography, zero-knowledge proofs, and cryptocurrencies. 
+        Students will gain insight into how cryptography is applied in the real world and how cryptographers respond to emerging threats.
+    </p>
+    <p class="info">We will use Blackboard for Q&As, course materials, and assignments.</p>
+
+    <h2>Schedule</h2>
+    <p>Monday, 4:30–7:10 PM, BL 129</p>
+
+    <h2>Textbooks</h2>
+    <ul>
+        <li>
+            <a href="https://www.manning.com/books/real-world-cryptography">Real-World Cryptography by David Wong</a> (required)
+        </li>
+        <li>
+            <a href="https://joyofcryptography.com">The Joy of Cryptography by Mike Rosulek</a> (optional)
+        </li>
+    </ul>
+
+    <h2>Further Study</h2>
+    <p>
+        Students interested in theoretical cryptography should consider CS 487/587: Introduction to Cryptography, which focuses on provable security. Recommended readings for theoretical study include:
+    </p>
+    <ul>
+        <li><a href="https://www.cs.umd.edu/~jkatz/imc.html">Introduction to Modern Cryptography by Katz and Lindell</a></li>
+        <li><a href="http://toc.cryptobook.us">A Graduate Course in Applied Cryptography by Boneh and Shoup</a></li>
+    </ul>
+
+    <h2>Grading</h2>
+    <ul>
+        <li>50% Assignments</li>
+        <li>40% Final Exam</li>
+        <li>10% Participation</li>
+    </ul>
+
+    <h2>Ethics and Policies</h2>
+    <p>
+        Adherence to the <a href="https://stearnscenter.gmu.edu/home/gmu-common-course-policies/">GMU Common Course Policies</a>, 
+        <a href="https://academicstandards.gmu.edu">GMU Academic Standards</a>, and the 
+        <a href="https://cs.gmu.edu/resources/honor-code/">CS Department Honor Code</a> is required.
+    </p>
 </body>
 </html>
