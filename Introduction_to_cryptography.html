@@ -3,78 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CS487/CS587: Introduction to Cryptography (Spring 2025)</title>
+    <title>CS487/CS587: Introduction to Cryptography</title>
     <style>
         body {
             font-family: Georgia, serif;
-            line-height: 1.6;
-            margin: 20px;
+            max-width: 750px;
+            margin: 20px auto;
+            line-height: 1.5;
+            color: #000;
         }
         h1 {
-            font-size: 24px;
-            color: #B22222;
-            border-bottom: 2px solid #4b0012;
-            padding-bottom: 10px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #4b0012;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
         }
         h2 {
             font-size: 18px;
-            color: #000000;
+            font-weight: bold;
+            color: #333;
+            margin-top: 20px;
         }
         a {
-            color: #0000e9;
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
             text-decoration: underline;
         }
-        p {
-            margin: 0 0 15px;
+        p, ul {
+            margin: 10px 0;
         }
         ul {
-            list-style-type: disc;
-            margin-left: 20px;
+            padding-left: 20px;
         }
-        .section-title {
-            font-size: 18.5px;
-            color: #000000;
-            font-weight: bold;
-        }
-        .note {
-            color: #4b0012;
+        .info {
             font-size: 14px;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>CS487/CS587: Introduction to Cryptography (Spring 2025)</h1>
-    <h2>Professor: <a href="https://ateniese.github.io">Giuseppe Ateniese</a> (<a href="mailto:ateniese@gmu.edu">ateniese@gmu.edu</a>)</h2>
-    <p>Office hours: Wednesday 4:30pm - 5:30pm (Zoom)</p>
+    <h1>CS487/CS587: Introduction to Cryptography</h1>
 
-    <p class="section-title">Description:</p>
-    <p>This course presents a rigorous, theory-focused exploration of modern cryptography, grounded in the comprehensive academic framework provided by <a href="https://www.cs.umd.edu/~jkatz/imc.html">Katz and Lindell's textbook</a>. We will engage deeply with the theoretical underpinnings of cryptographic systems, emphasizing the mathematical proofs and theoretical constructs that form the backbone of secure communication.</p>
-    <p>Students will explore symmetric and asymmetric cryptography, key distribution and management systems, hash functions, digital signatures, and more, with a particular emphasis on the formal definitions and proofs of security that underlie these concepts. The course aims to develop a profound theoretical understanding and analytical approach to cryptography, preparing students for advanced academic research or careers where a deep, foundational knowledge of cryptographic theory is essential.</p>
-    <p class="note">We will use Blackboard for Q&As, course materials, and assignments.</p>
+    <h2>Instructor</h2>
+    <p>
+        <a href="https://ateniese.github.io">Giuseppe Ateniese</a> (<a href="mailto:ateniese@gmu.edu">ateniese@gmu.edu</a>)
+    </p>
+    <p class="info">Office hours: Wednesday, 4:30–5:30 PM (Zoom)</p>
 
-    <p class="section-title">Scheduled Meeting Times:</p>
-    <p>Tuesday 4:30pm - 7:10pm, Location: Horizon 2008</p>
+    <h2>Description</h2>
+    <p>
+        A theoretical study of modern cryptography, covering symmetric/asymmetric systems, key management, hash functions, and digital signatures. 
+        The course emphasizes formal definitions, security proofs, and rigorous mathematical frameworks based on the textbook 
+        <a href="https://www.cs.umd.edu/~jkatz/imc.html">Introduction to Modern Cryptography</a> by Katz and Lindell.
+    </p>
 
-    <p class="section-title">Reading Material:</p>
-    <p>The primary textbook, which is required for this course, is:</p>
+    <h2>Schedule</h2>
+    <p>Tuesday, 4:30–7:10 PM, Horizon Hall 2008</p>
+
+    <h2>Textbooks</h2>
     <ul>
-        <li><a href="https://www.cs.umd.edu/~jkatz/imc.html">Introduction to Modern Cryptography by Katz and Lindell, Third Edition</a></li>
-    </ul>
-    <p>Alternative readings include:</p>
-    <ul>
-        <li><a href="http://toc.cryptobook.us">A Graduate Course in Applied Cryptography by Dan Boneh, Victor Shoup</a></li>
-    </ul>
-    <p class="note">Note: This course requires strong skills in discrete mathematics, covering areas like probability, modular arithmetic, group theory, and number theory, essential for understanding complex cryptographic concepts and mathematical proofs.</p>
-    <p class="note">In CS 587, graduate students are required to tackle an additional problem in most assignments and to study supplementary material independently.</p>
-
-    <p class="section-title">Grading:</p>
-    <ul>
-        <li>50% Assignments</li>
-        <li>40% Final</li>
-        <li>10% Participation</li>
+        <li>
+            <a href="https://www.cs.umd.edu/~jkatz/imc.html">Introduction to Modern Cryptography (3rd Ed.)</a>, Katz and Lindell (required)
+        </li>
+        <li>
+            <a href="http://toc.cryptobook.us">A Graduate Course in Applied Cryptography</a>, Boneh and Shoup (optional)
+        </li>
     </ul>
 
-    <p class="section-title">Ethics:</p>
-    <p>Students must adhere to the <a href="https://oai.gmu.edu/mason-honor-code/">GMU Honor Code</a> and the <a href="https://cs.gmu.edu/resources/honor-code/">CS Department Honor Code</a>.</p>
+    <h2>Prerequisites</h2>
+    <p>
+        Proficiency in discrete mathematics, including probability, modular arithmetic, group theory, and number theory.
+        Graduate students (CS587) will complete additional problems and readings.
+    </p>
+
+    <h2>Grading</h2>
+    <ul>
+        <li>60% Assignments</li>
+        <li>40% Final Exam</li>
+    </ul>
+
+    <h2>Ethics</h2>
+    <p>
+        Adherence to the <a href="https://oai.gmu.edu/mason-honor-code/">GMU Honor Code</a> and the
+        <a href="https://cs.gmu.edu/resources/honor-code/">CS Department Honor Code</a> is required.
+    </p>
 </body>
 </html>
